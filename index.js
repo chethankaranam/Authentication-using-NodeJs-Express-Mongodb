@@ -13,7 +13,6 @@ process.env.DB_CONNECT,
 },
 () => console.log("connected to db")
 );
-// import routes 
 const authRoutes = require("./routes/auth");
 // route middlewares
 app.use("/api/user", authRoutes);
